@@ -1,0 +1,339 @@
+/* Reset CSS */
+
+/* Remove margens, paddings e bordas padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definir altura e largura como 100% para html e body */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Remover estilo de lista */
+ul, ol {
+  list-style: none;
+}
+
+/* Remover sublinhado de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Definir fontes padrão */
+body, input, button, textarea, select {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+/* Remover bordas de elementos de formulário */
+input, button, textarea, select {
+  border: none;
+  outline: none;
+}
+
+/* Definir borda padrão para imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Remover bordas de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remover estilos de citação */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* Remover estilo de campo de busca */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Remover estilo de botão de incremento/decremento */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remover estilo de botão de arquivo */
+input[type="file"]::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* Remover estilo de botão de data */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/* Remover estilo de botão de range */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Remover estilo de botão de checkbox e radio */
+input[type="checkbox"], input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Remover estilo de botão de select */
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Remover estilo de botão de progress */
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Remover estilo de botão de meter */
+meter {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Remover estilo de botão de details */
+details {
+  display: block;
+}
+
+/* Remover estilo de botão de summary */
+summary {
+  display: list-item;
+}
+
+/* Remover estilo de botão de dialog */
+dialog {
+  display: block;
+}
+
+/* Remover estilo de botão de menu */
+menu {
+  display: block;
+}
+
+/* Remover estilo de botão de menuitem */
+menuitem {
+  display: block;
+}
+
+/* Remover estilo de botão de command */
+command {
+  display: block;
+}
+
+/* Remover estilo de botão de keygen */
+keygen {
+  display: block;
+}
+
+/* Remover estilo de botão de output */
+output {
+  display: block;
+}
+
+/* Remover estilo de botão de progress */
+progress {
+  display: block;
+}
+
+/* Remover estilo de botão de time */
+time {
+  display: block;
+}
+
+/* Remover estilo de botão de mark */
+mark {
+  display: block;
+}
+
+/* Remover estilo de botão de ruby */
+ruby {
+  display: block;
+}
+
+/* Remover estilo de botão de rt */
+rt {
+  display: block;
+}
+
+/* Remover estilo de botão de rp */
+rp {
+  display: block;
+}
+
+/* Remover estilo de botão de bdi */
+bdi {
+  display: block;
+}
+
+/* Remover estilo de botão de bdo */
+bdo {
+  display: block;
+}
+
+/* Remover estilo de botão de wbr */
+wbr {
+  display: block;
+}
+
+/* Remover estilo de botão de data */
+data {
+  display: block;
+}
+
+/* Remover estilo de botão de time */
+time {
+  display: block;
+}
+
+/* Remover estilo de botão de mark */
+mark {
+  display: block;
+}
+
+/* Remover estilo de botão de ruby */
+ruby {
+  display: block;
+}
+
+/* Remover estilo de botão de rt */
+rt {
+  display: block;
+}
+
+/* Remover estilo de botão de rp */
+rp {
+  display: block;
+}
+
+/* Remover estilo de botão de bdi */
+bdi {
+  display: block;
+}
+
+/* Remover estilo de botão de bdo */
+bdo {
+  display: block;
+}
+
+/* Remover estilo de botão de wbr */
+wbr {
+  display: block;
+}
+
+/* Remover estilo de botão de data */
+data {
+  display: block;
+}
+
+/* Remover estilo de botão de time */
+time {
+  display: block;
+}
+
+/* Remover estilo de botão de mark */
+mark {
+  display: block;
+}
+
+/* Remover estilo de botão de ruby */
+ruby {
+  display: block;
+}
+
+/* Remover estilo de botão de rt */
+rt {
+  display: block;
+}
+
+/* Remover estilo de botão de rp */
+rp {
+  display: block;
+}
+
+/* Remover estilo de botão de bdi */
+bdi {
+  display: block;
+}
+
+/* Remover estilo de botão de bdo */
+bdo {
+  display: block;
+}
+
+/* Remover estilo de botão de wbr */
+wbr {
+  display: block;
+}
+
+/* Remover estilo de botão de data */
+data {
+  display: block;
+}
+
+/* Remover estilo de botão de time */
+time {
+  display: block;
+}
+
+/* Remover estilo de botão de mark */
+mark {
+  display: block;
+}
+
+/* Remover estilo de botão de ruby */
+ruby {
+  display: block;
+}
+
+/* Remover estilo de botão de rt */
+rt {
+  display: block;
+}
+
+/* Remover estilo de botão de rp */
+rp {
+  display: block;
+}
+
+/* Remover estilo de botão de bdi */
+bdi {
+  display: block;
+}
+
+/* Remover estilo de botão de bdo */
+bdo {
+  display: block;
+}
+
+/* Remover estilo de botão de wbr */
+wbr {
+  display
