@@ -1,0 +1,15 @@
+{
+    "name": "seu-projeto",
+    "version": "1.0.0",
+    "description": "Descrição do seu projeto",
+    "main": "index.js",
+    "scripts": {
+        "start": "live-server --port=2200"
+    },
+    "keywords": [],
+    "author": "Jairo Roberto",
+    "license": "ISC",
+    "devDependencies": {
+        "live-server": "^1.2.2"
+    }
+}

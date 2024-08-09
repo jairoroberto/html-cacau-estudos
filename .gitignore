@@ -1,0 +1,120 @@
+# Sistema operacional
+######################
+# Arquivos de sistema do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails do Windows
+Thumbs.db
+ehthumbs.db
+
+# Lixo da lixeira do Linux
+.Trash-*
+
+# Arquivos de log
+######################
+*.log
+
+# Diretórios de build
+######################
+/build/
+/dist/
+/out/
+
+# Dependências
+######################
+# Node.js
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.manifest
+*.spec
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+*.class
+
+# Ruby
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+_yardoc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# PHP
+vendor/
+
+# Logs e arquivos temporários
+######################
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# IDEs e editores
+######################
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Outros
+######################
+*.env
+*.env.local
+*.env.*.local
+.envrc
+.env.bak
+.env.old
