@@ -1,0 +1,62 @@
+/* Primitives */
+:root {
+  /* Mode 1 */
+  /* color */
+  --color-base-black: #000000;
+  --color-base-white: #ffffff;
+  --color-others-blue-600: #0066cc;
+  --color-others-blue-700: #004d99;
+  --color-others-blue-800: #003366;
+  --color-others-green-600: #99cc20;
+  --color-others-green-700: #779f19;
+  --color-others-grey-100: #d9d9d9;
+  --color-others-grey-200: #a6a6a6;
+  --color-others-grey-50: #f2f2f2;
+  --color-others-grey-700: #666666;
+  --color-others-grey-800: #363636;
+  --color-others-grey-900: #292b2c;
+
+  /* number */
+  --size-1: 4px;
+  --size-2: 8px;
+  --size-3: 12px; 
+  --size-5: 1rem; /* 16rem */
+  --size-6: 20px;
+  --size-7: 24px;
+  --size-8: 32px;
+  --size-10: 40px;
+  --size-11: 48px;
+  --size-12: 96px;
+}
+
+
+/* Tokens */
+:root {
+  /* light */
+  /* color */
+  --color-dark: var(--color-others-grey-700);
+  --color-light: var(--color-others-grey-50);
+  --color-border: var(--color-others-grey-100);
+  --color-primary: var(--color-others-green-700);
+  --color-secondary: var(--color-others-blue-600);
+  --color-white: var(--color-base-white);
+
+  /* number */
+  --padding-sm: var(--size-1);
+  --padding-md: var(--size-2);
+  --padding-lg: var(--size-3);
+  --padding-xl: var(--size-5);
+
+  --margin-sm: var(--size-1);
+  --margin-md: var(--size-2);
+  --margin-lg: var(--size-3);
+  --margin-xl: var(--size-5);
+
+  --rounded-sm: var(--size-1);
+  --rounded-md: var(--size-2);
+  --rounded-lg: var(--size-3);
+
+  --w-base: var(--size-12);
+
+
+}

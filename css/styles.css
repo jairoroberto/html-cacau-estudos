@@ -1,16 +1,157 @@
 @import URL('./reset.css');
-
-/* Primitives */
-:root{
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --background-color: #f9f9f9;
-  --text-color: #333;
-}
-
-/* Tokens */
+@import URL('./tokens.css');
 
 
 body{
   font-family: 'Gotham Rounded', 'Foco', Helvetica, sans-serif;
+  font-size: 100%;
+  color: var(--color-dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4rem;
 }
+
+
+/* COMMON HEADER */
+#common-header{
+  background-color: var(--color-light);
+  height:70px;
+  padding:var(--padding-xl);
+  display:flex;
+  align-items: center;
+  gap:1rem;
+  justify-content: space-between;
+  padding:0 10%;
+  position: sticky;
+  top:0px;
+}
+
+#common-header .brand{
+  max-width:140px;
+}
+#common-header .wrap-logo-search{
+  display:flex;
+  gap:3rem;
+}
+#common-header .main-menu{
+  
+}
+
+#common-header .main-menu ul{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+}
+
+#common-header .main-menu ul li a{
+  color: var(--color-secondary);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  transition: all ease-out 0.3s;
+  position: relative;
+}
+
+#common-header .main-menu ul li a:hover{
+  color: var(--color-secondary);
+  filter: brightness(0.7);
+  transition: all ease-in 0.3s;
+}
+
+#common-header .main-menu ul li a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background: var(--color-primary);
+  left: 0;
+  bottom: -29px;
+  transition: all 0.2s ease;
+}
+
+#common-header .main-menu ul li a:hover:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  background: var(--color-secondary);
+  left: 0;
+  transition: all 0.2s ease;
+}
+
+#common-header .wrap-search{
+  display:flex;
+  justify-content:space-between;
+  background:var(--color-white);
+  border:1px solid var(--color-border);
+  border-radius:var(--rounded-sm);
+  align-items: center;
+  padding:1px;
+  width:400px;
+  transition: all 0.2s ease;
+}
+
+
+#common-header .wrap-search:focus-within{
+  width:460px;
+  transition: all 0.2s ease;
+}
+
+
+#common-header .wrap-search .form-search{
+  background: transparent;
+  border:none;
+  min-width:80%;
+}
+
+
+
+#common-header .wrap-search a {
+  background: var(--color-primary);
+  display: flex;
+  width: 40px;
+  height: 32px;
+  border-radius: 0 3px 3px 0;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  transition: all 0.3s ease;
+}
+
+#common-header .wrap-search a:hover{
+  filter: brightness(1.2);
+  transition: all 0.3s ease;
+}
+
+
+
+/* COMMONS ELEMENTS */
+.form-search{
+  background:var(--color-white);
+  border:1px solid var(--color-border);
+  border-radius:var(--rounded-sm);
+  padding:var(--padding-sm) var(--padding-lg);
+  min-width: calc(var(--w-base) * 3);
+  transition: border 0.6s ease;
+}
+
+.form-search:focus{
+  border:1px solid var(--color-primary);
+  transition: border 0.2s ease;
+}
+
+.wrap{
+  max-width:calc(var(--w-base) * 10);
+  margin: 0 auto;
+  padding:var(--padding-lg)
+}
+.wrap p, 
+.wrap h1{
+  margin-bottom: var(--margin-xl);
+}
+
+
+
+
+
+
