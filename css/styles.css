@@ -150,7 +150,44 @@ body{
   margin-bottom: var(--margin-xl);
 }
 
+.hamburguer{
+  display:none;
+}
 
+@media(max-width:768px){
+  
+  .hamburguer{
+    display: block;
+  }
+
+  #common-header {
+    flex-direction: column;
+    padding:0;
+  }
+
+  #common-header .main-menu ul {
+      flex-direction: column;
+  }
+
+  #common-header .main-menu {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background: #fff;
+  }
+
+  #common-header .main-menu ul{
+    display: none;
+  }
+
+  #list-menu.show-toggle{
+    display: block !important;
+  }
+  #common-header{
+    height: auto;
+  }
+}
 
 
 

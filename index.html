@@ -28,13 +28,18 @@
             </div>
 
             <nav class="main-menu">
-                <ul>
+                <button class="hamburguer" type="button">
+                    <i class="ph ph-list"></i>
+                </button>
+                <ul id="list-menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Produtos</a></li>
                     <li><a href="#">Fale Conosco</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
+
             </nav>
+
 
         </header>
 
@@ -118,6 +123,18 @@
 
         </footer>
 
+
+        <script>
+            ulMenu = document.querySelector('#list-menu');
+            hambButton = document.querySelector('.hamburguer');
+
+            hambButton.addEventListener('click', function (e) {
+                ulMenu.classList.toggle('show-toggle')
+            });
+        </script>
+
     </body>
+
+
 
 </html>
