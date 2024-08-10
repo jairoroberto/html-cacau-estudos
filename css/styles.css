@@ -149,16 +149,17 @@ body {
 }
 
 .display-1 {
-  font-size: calc(var(--font-lg) * 3.2);
+  font-size: calc(var(--font-md) * 8.4);
   line-height: 1.2;
   padding-top: 0.5rem;
   margin-bottom: 0.25rem;
-  background: linear-gradient(to right, #f92420, #b00c9d);
+  background: linear-gradient(to right, #f92420, #9c27b0);
   background-clip: text;
   color: transparent;
+  letter-spacing: -1px;
 }
 .display-2 {
-  font-size: calc(var(--font-lg) * 2.4);
+  font-size: calc(var(--font-lg) * 3.4);
   line-height: 1.2;
   color: #384df1;
   margin-bottom: 1rem;
