@@ -29,7 +29,6 @@
   --size-12: 96px;
 }
 
-
 /* Tokens */
 :root {
   /* light */
@@ -52,11 +51,16 @@
   --margin-lg: var(--size-3);
   --margin-xl: var(--size-5);
 
+  
+  --font-sm: var(--size-1);
+  --font-md: var(--size-2);
+  --font-lg: var(--size-3);
+  --font-xl: var(--size-5);
+
   --rounded-sm: var(--size-1);
   --rounded-md: var(--size-2);
   --rounded-lg: var(--size-3);
 
   --w-base: var(--size-12);
-
 
 }
