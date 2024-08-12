@@ -6,5 +6,6 @@
 ### Comando 2 - Instala o live-server
 `npm install -D live-server`
 
-
+### Comando 3 - Para Rodar o projeto Localmente
+`npm start`
 

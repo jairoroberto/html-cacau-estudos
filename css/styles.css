@@ -83,6 +83,7 @@ body {
   align-items: center;
   padding: 1px;
   width: 400px;
+  height: 40px;
   transition: all 0.2s ease;
 }
 
@@ -100,8 +101,8 @@ body {
 #common-header .wrap-search a {
   background: var(--color-primary);
   display: flex;
-  width: 40px;
-  height: 32px;
+  width: 50px;
+  height: calc(40px - 4px);
   border-radius: 0 3px 3px 0;
   justify-content: center;
   align-items: center;
@@ -214,7 +215,7 @@ body {
     flex-direction: column;
     background: transparent;
     position: relative;
-    top: -80px;
+    top: -90px;
     padding: 1rem 0;
   }
 
@@ -227,18 +228,19 @@ body {
     gap: 0;
   }
 
-  @keyframes #list-menu {
-  }
-
   #common-header .main-menu #list-menu {
     height: 0;
     overflow: hidden;
     transition: all ease 0.3s;
+    top: -100px;
+    position: relative;
   }
   #common-header .main-menu #list-menu.show-toggle {
     height: auto;
     overflow: visible;
     transition: all ease 0.3s;
+    top: 0px;
+    position: relative;
   }
 
   #common-header .main-menu ul.show {
